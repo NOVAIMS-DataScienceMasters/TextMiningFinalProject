@@ -3,12 +3,18 @@
 
 ## TODO LIST:
  1st. Clean metadata from .txt file
+ 
  2nd. Prepare dataframe: 
       . Arrange column names, id, author label and so on 
+      
  3rd. Crossvalidation (don't forget to justify)
+ 
  4rd. Baseline: statistics - frequency count analysis
+ 
  5th. Decide on evaluation metrics
+ 
  6th. Evaluate Baseline
+ 
  7th. Seperate "new" from "old" authors
 
 
