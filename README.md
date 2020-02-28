@@ -19,7 +19,7 @@ Notes:
 
 From <https://ricardorei.github.io/chapters/chap_2.html> 
 
-
+- Seperate contemporary authors from "old" authors as it's likely they will have differences in vocabulary
 
 To test, to clean metada>
 - https://github.com/textpipe/textpipe
