@@ -45,3 +45,11 @@ From <https://ricardorei.github.io/chapters/chap_2.html>
 
 To test, to clean metada>
 - https://github.com/textpipe/textpipe
+
+NLTK links:
+http://www.nltk.org/howto/portuguese_en.html
+
+
+
+Examples similar to our question
+- https://www.kaggle.com/c/spooky-author-identification/data
