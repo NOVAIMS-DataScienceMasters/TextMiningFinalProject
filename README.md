@@ -9,13 +9,13 @@
       
  3rd. Crossvalidation (don't forget to justify)
  
- 4rd. Baseline: statistics - frequency count analysis
+ 4td. Baseline: statistics - frequency count analysis
  
  5th. Decide on evaluation metrics
  
  6th. Evaluate Baseline
  
- 7th. Seperate "new" from "old" authors
+ 7th. Separate "new" from "old" authors
 
 
 To discuss:
