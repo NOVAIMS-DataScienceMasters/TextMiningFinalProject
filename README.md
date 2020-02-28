@@ -1,17 +1,32 @@
 # TextMiningFinalProject
 
+
+## TODO LIST:
+ 1st. Clean metadata from .txt file
+ 2nd. Prepare dataframe: 
+      . Arrange column names, id, author label and so on 
+ 3rd. Crossvalidation (don't forget to justify)
+ 4rd. Baseline: statistics - frequency count analysis
+ 5th. Decide on evaluation metrics
+ 6th. Evaluate Baseline
+ 7th. Seperate "new" from "old" authors
+
+
 To discuss:
-- Most .txt files start with general information about the text like title, author, year of publication, summary and so on. Should we delete this information one by one directly on the .txt files? 
+- Most .txt files start with general information about the text like title, author, year of publication, summary and so on. Clean all metadata from the txt files
+- textpipe if possible?
+- Alternatives: ...??
 
 - What will constitute as baseline?
 
 - Evaluation metrics to be used.
 
-- ...
+- Train the model on each author and then join them
+
 
 Notes:
 
-- Decided on Cross-validation as the dataset splitting method 
+- Decided on Cross-validation as the dataset splitting method because the dataset is relatively small
 
 - For Saramago, prof recommends removing punctuation from the stop set
 
@@ -20,6 +35,7 @@ Notes:
 From <https://ricardorei.github.io/chapters/chap_2.html> 
 
 - Seperate contemporary authors from "old" authors as it's likely they will have differences in vocabulary
+- Use lemmatization instead of Stemming 
 
 To test, to clean metada>
 - https://github.com/textpipe/textpipe
