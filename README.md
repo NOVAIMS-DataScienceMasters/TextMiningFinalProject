@@ -46,8 +46,9 @@ From <https://ricardorei.github.io/chapters/chap_2.html>
 To test, to clean metada>
 - https://github.com/textpipe/textpipe
 
-NLTK links:
+NLTK useful links:
 http://www.nltk.org/howto/portuguese_en.html
+https://realpython.com/natural-language-processing-spacy-python/
 
 
 
