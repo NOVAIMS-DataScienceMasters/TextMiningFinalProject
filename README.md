@@ -49,6 +49,8 @@ To test, to clean metada>
 NLTK useful links:
 http://www.nltk.org/howto/portuguese_en.html
 https://realpython.com/natural-language-processing-spacy-python/
+Article describing an example of Authorship Identification of texts:
+https://web.stanford.edu/class/archive/cs/cs224n/cs224n.1174/reports/2760185.pdf
 
 
 
