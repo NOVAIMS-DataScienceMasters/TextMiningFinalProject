@@ -2,12 +2,13 @@
 
 
 ## TODO LIST:
- 1st. Clean metadata from .txt file
+ 1st. Clean metadata from .txt file using STOP words
  
  2nd. Prepare dataframe: 
       . Arrange column names, id, author label and so on 
+      . Change .txt names so there's no duplicates
       
- 3rd. Crossvalidation (don't forget to justify)
+ 3rd. Crossvalidation (don't forget to justify) to divide into training and validation set 
  
  4td. Baseline: statistics - frequency count analysis
  
