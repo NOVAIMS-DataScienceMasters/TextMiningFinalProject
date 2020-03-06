@@ -2,21 +2,28 @@
 
 
 ## TODO LIST:
- 1st. Clean metadata from .txt file using STOP words
+ 1st. Clean metadata from .txt file using STOP words (Susana)
  
  2nd. Prepare dataframe: 
       . Arrange column names, id, author label and so on 
       . Change .txt names so there's no duplicates
       
+ - Lowercase, remove accents (Inês)
+ 
+    - test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (Lara)
+      
  3rd. Crossvalidation (don't forget to justify) to divide into training and validation set 
  
  4td. Baseline: statistics - frequency count analysis
+      - Bag of words it takes into consideration frequency but not the order of the words. It's naive but not too simplistic but it should be easy to implement
  
  5th. Decide on evaluation metrics
  
  6th. Evaluate Baseline
  
  7th. Separate "new" from "old" authors
+ 
+ 8th. Word cloud (freq of words) specially between new and old authors.
 
 Modelos:
 
