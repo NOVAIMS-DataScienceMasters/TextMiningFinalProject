@@ -18,6 +18,15 @@
  
  7th. Separate "new" from "old" authors
 
+Modelos:
+
+1st With metadata and no metadata
+
+2st DummyClassifier vs... 
+
+3rd.Bag of Authors - trainar modelos autor a autor (last phase)
+
+4th (OPTIONAL) Add Ricardo Reis and Jose Saramago, can our Model distinguish between the two 
 
 To discuss:
 - Most .txt files start with general information about the text like title, author, year of publication, summary and so on. Clean all metadata from the txt files
