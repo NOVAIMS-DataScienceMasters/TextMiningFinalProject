@@ -2,15 +2,15 @@
 
 
 ## TODO LIST:
- 1st. Clean metadata from .txt file using STOP words (Susana)
+ 1st. Clean metadata from .txt file using STOP words (*Susana*)
  
  2nd. Prepare dataframe: 
       . Arrange column names, id, author label and so on 
       . Change .txt names so there's no duplicates
       
- - Lowercase, remove accents (Inês)
+ - Lowercase, remove accents, remove punctuation function (*Inês*)
  
-    - test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (Lara)
+    - test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (*Lara*)
       
  3rd. Crossvalidation (don't forget to justify) to divide into training and validation set 
  
@@ -23,7 +23,7 @@
  
  7th. Separate "new" from "old" authors
  
- 8th. Word cloud (freq of words) specially between new and old authors.
+ 8th. Word cloud (freq of words) specially between new and old authors.(*Lara*)
 
 Modelos:
 
