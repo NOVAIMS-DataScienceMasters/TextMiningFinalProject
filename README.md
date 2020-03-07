@@ -2,17 +2,17 @@
 
 
 ## TODO LIST:
-- [ ] Clean metadata from .txt file using STOP words (**Susana*)
+- [ ] Clean metadata from .txt file using STOP words (**Susana**)
  
 - [ ] Prepare dataframe: 
       . Arrange column names, id, author label and so on 
-      . Change .txt names so there's no duplicates
+- [ ] Change .txt file names so there's no duplicates (**Lara**)
       
-- [ ] Lowercase, remove accents, remove punctuation function (**Inês*)
+- [ ] Lowercase, remove accents, remove punctuation function (**Inês**)
  
-- [ ] test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (**Lara*)
+- [ ] test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (**Lara**)
       
-- [ ] Word cloud (freq of words) specially between new and old authors.(**Lara*)
+- [ ] Word cloud (freq of words) specially between new and old authors.(**Lara**)
 
 - [ ] Crossvalidation (don't forget to justify) to divide into training and validation set 
  
@@ -27,7 +27,7 @@
  
 
 
-Modelos:
+### Models:
 
 1st With metadata and no metadata
 
@@ -37,7 +37,7 @@ Modelos:
 
 4th (OPTIONAL) Add Ricardo Reis and Jose Saramago, can our Model distinguish between the two 
 
-To discuss:
+### To discuss:
 
 - What will constitute as baseline?
 
@@ -46,7 +46,7 @@ To discuss:
 - Train the model on each author and then join them
 
 
-Notes:
+### Notes:
 
 - Decided on Cross-validation as the dataset splitting method because the dataset is relatively small
 
@@ -56,7 +56,7 @@ Notes:
 
 From <https://ricardorei.github.io/chapters/chap_2.html> 
 
-- Seperate contemporary authors from "old" authors as it's likely they will have differences in vocabulary
+- Separate contemporary authors from "old" authors as it's likely they will have differences in vocabulary
 - Use lemmatization instead of Stemming 
 
 To test, to clean metada>
