@@ -2,28 +2,30 @@
 
 
 ## TODO LIST:
- 1st. Clean metadata from .txt file using STOP words (*Susana*)
+- [ ] Clean metadata from .txt file using STOP words (**Susana*)
  
- 2nd. Prepare dataframe: 
+- [ ] Prepare dataframe: 
       . Arrange column names, id, author label and so on 
       . Change .txt names so there's no duplicates
       
- - Lowercase, remove accents, remove punctuation function (*Inês*)
+- [ ] Lowercase, remove accents, remove punctuation function (**Inês*)
  
-    - test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (*Lara*)
+- [ ] test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (**Lara*)
       
- 3rd. Crossvalidation (don't forget to justify) to divide into training and validation set 
+- [ ] Word cloud (freq of words) specially between new and old authors.(**Lara*)
+
+- [ ] Crossvalidation (don't forget to justify) to divide into training and validation set 
  
- 4td. Baseline: statistics - frequency count analysis
+- [ ] Baseline: statistics - frequency count analysis
       - Bag of words it takes into consideration frequency but not the order of the words. It's naive but not too simplistic but it should be easy to implement
  
- 5th. Decide on evaluation metrics
+- [ ] Decide on evaluation metrics
  
- 6th. Evaluate Baseline
+- [ ] Evaluate Baseline
  
- 7th. Separate "new" from "old" authors
+- [ ] Separate "new" from "old" authors
  
- 8th. Word cloud (freq of words) specially between new and old authors.(*Lara*)
+
 
 Modelos:
 
@@ -36,9 +38,6 @@ Modelos:
 4th (OPTIONAL) Add Ricardo Reis and Jose Saramago, can our Model distinguish between the two 
 
 To discuss:
-- Most .txt files start with general information about the text like title, author, year of publication, summary and so on. Clean all metadata from the txt files
-- textpipe if possible?
-- Alternatives: ...??
 
 - What will constitute as baseline?
 
