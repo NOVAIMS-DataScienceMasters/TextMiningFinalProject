@@ -8,9 +8,9 @@
       . Arrange column names, id, author label and so on 
 - [x] Change .txt file names so there's no duplicates (**Lara**)
       
-- [ ] Lowercase, remove accents, remove punctuation function (**Inês**)
+- [x] Lowercase, remove accents, remove punctuation function (**Inês**)
  
-- [ ] test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (**Lara**)
+- [x] test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (**Lara**)
       
 - [x] Word cloud (freq of words) specially between new and old authors.(**Lara**)
 
