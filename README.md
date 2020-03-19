@@ -11,6 +11,8 @@
 - [x] Lowercase, remove accents, remove punctuation function (**Inês**)
 
 - [ ] STOP words with Spacy (**Inês**)
+
+- [ ] Clean and add all titles
  
 - [x] test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (**Lara**)
       
@@ -18,7 +20,7 @@
 
 - [ ] Crossvalidation (don't forget to justify) to divide into training and validation set (**Lara**)
  
-- [ ] Baseline: statistics - frequency count analysis as a baseline 
+- [ ] Baseline: statistics - frequency count analysis as a baseline (**Lara**)
       - Bag of words it takes into consideration frequency but not the order of the words. It's naive but not too simplistic but it should be easy to implement
  
 - [ ] Decide on evaluation metrics
