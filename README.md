@@ -2,30 +2,35 @@
 
 
 ## TODO LIST:
-- [x] Clean metadata from .txt file using STOP words (**Susana**)
+
+- [ ] Separate Lemmatization with rest of preprocessing of data (**Inês**)
+
+- [ ] Write the rationale behind our preprocessing, the methods we will use and our testing scheme
+
+- [ ] Continuous Bag of Words 
+
+- [ ] Clean metadata from .txt file using STOP words (**Susana**)
  
-- [ ] Prepare dataframe: 
+- [x] Prepare dataframe: 
       . Arrange column names, id, author label and so on 
 - [x] Change .txt file names so there's no duplicates (**Lara**)
       
 - [x] Lowercase, remove accents, remove punctuation function (**Inês**)
 
-- [ ] STOP words with Spacy (**Inês**)
-
-- [ ] Clean and add all titles
+- [x] STOP words with Spacy (**Inês**)
  
 - [x] test a dummy classifier with two text from Saramago and two with JRS, try to distinguish the two with and without punctuation. Is it an important metric to distinguish JS or not needed? (**Lara**)
       
 - [x] Word cloud (freq of words) specially between new and old authors.(**Lara**)
 
-- [ ] Crossvalidation (don't forget to justify) to divide into training and validation set (**Lara**)
+- [x] Crossvalidation (don't forget to justify) to divide into training and validation set (**Lara**)
  
-- [ ] Baseline: statistics - frequency count analysis as a baseline (**Lara**)
+- [x] Baseline: statistics - frequency count analysis as a baseline (**Lara**)
       - Bag of words it takes into consideration frequency but not the order of the words. It's naive but not too simplistic but it should be easy to implement
  
 - [ ] Decide on evaluation metrics
  
-- [ ] Evaluate Baseline
+- [x] Evaluate Baseline
  
 - [ ] Separate "new" from "old" authors
  
