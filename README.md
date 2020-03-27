@@ -5,9 +5,15 @@
 
 - [ ] Separate Lemmatization with rest of preprocessing of data (**Inês**)
 
+- [ ] Lemmatization before and after STOP words (**Inês**)
+
+- [ ] Test the above to see which is best 
+
 - [ ] Write the rationale behind our preprocessing, the methods we will use and our testing scheme
 
 - [ ] Continuous Bag of Words 
+
+- [ ] LSTM after CBOW
 
 - [ ] Clean metadata from .txt file using STOP words (**Susana**)
  
