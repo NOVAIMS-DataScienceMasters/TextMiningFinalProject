@@ -53,6 +53,7 @@ Test _Baseline,_ _CBOW_ and eventually _LMNN_ in this order:
 - no meta, clean with punctuation and no lemmatization
 - no meta, clean without punctuation and no lemmatization
 - no meta, clean without punctuation and with lemmatization 
+- no meta, clean without punctuation and with lemmatization as chunks
  
 
 ### Models:
