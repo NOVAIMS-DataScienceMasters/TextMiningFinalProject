@@ -3,17 +3,21 @@
 
 ## TODO LIST:
 
-- [ ] Separate Lemmatization with rest of preprocessing of data (**Inês**)
+- [x] Separate Lemmatization with rest of preprocessing of data (**Inês**)
 
-- [ ] Lemmatization before and after STOP words (**Inês**)
+- [x] Lemmatization before and after STOP words (**Inês**)
 
-- [ ] Test the above to see which is best 
+- [x] Test the above to see which is best (**Inês**)
 
-- [ ] Write the rationale behind our preprocessing, the methods we will use and our testing scheme
+- [ ] Change evaluation metrics to accuracy and f1score (**Inês**)
 
-- [ ] Continuous Bag of Words 
+- [ ] Write the rationale behind our preprocessing, the methods we will use and our testing scheme (**Susana**)
 
-- [ ] LSTM after CBOW
+- [ ] Organize the code (**Susana**)
+
+- [ ] Continuous Bag of Words (**Lara**)
+
+- [ ] LSTM after CBOW if needed
 
 - [ ] Clean metadata from .txt file using STOP words (**Susana**)
  
@@ -36,11 +40,20 @@
  
 - [ ] Decide on evaluation metrics
  
-- [x] Evaluate Baseline
+- [x] Evaluate Baseline 
  
 - [ ] Separate "new" from "old" authors
  
 
+## Testing Protocol: 
+
+Test _Baseline,_ _CBOW_ and eventually _LMNN_ in this order: 
+- raw data
+- no meta
+- no meta, clean with punctuation and no lemmatization
+- no meta, clean without punctuation and no lemmatization
+- no meta, clean without punctuation and with lemmatization 
+ 
 
 ### Models:
 
@@ -65,7 +78,7 @@
 
 - Decided on Cross-validation as the dataset splitting method because the dataset is relatively small
 
-- For Saramago, prof recommends removing punctuation from the stop set
+- For Saramago, prof recommends removing punctuation from the stop set, we tested and there's little difference
 
 - On Baselines: The baseline represents the starting point of your system: a specific configuration with which results are known. Then, you will make your experiments (add other corpus, change some parameters/algorithms, etc.) and compare the attained results with the baseline, in order to check if you are improving them.
 
