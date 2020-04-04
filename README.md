@@ -9,6 +9,8 @@
 
 - [x] Test the above to see which is best (**Inês**)
 
+- [ ] Change evaluation metrics to accuracy and f1score (**Inês**)
+
 - [ ] Write the rationale behind our preprocessing, the methods we will use and our testing scheme (**Susana**)
 
 - [ ] Organize the code (**Susana**)
