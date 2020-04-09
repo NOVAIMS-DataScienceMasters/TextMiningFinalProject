@@ -9,9 +9,9 @@
 
 - [x] Test the above to see which is best (**Inês**)
 
-- [ ] Create visualization of results
+- [x] Create visualization of results
 
-- [ ] Get metrics from Fasttext and lstm 
+- [x] Get metrics from Fasttext and lstm 
 
 - [ ] Compare the 2 models
 
