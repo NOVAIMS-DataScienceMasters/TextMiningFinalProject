@@ -9,17 +9,25 @@
 
 - [x] Test the above to see which is best (**Inês**)
 
-- [ ] Change evaluation metrics to accuracy and f1score (**Inês**)
+- [ ] Create visualization of results
 
-- [ ] Write the rationale behind our preprocessing, the methods we will use and our testing scheme (**Susana**)
+- [ ] Get metrics from Fasttext and lstm 
 
-- [ ] Organize the code (**Susana**)
+- [ ] Compare the 2 models
 
-- [ ] Continuous Bag of Words (**Lara**)
+- [ ] Final organization and cleaning of texts/notebook
 
-- [ ] LSTM after CBOW if needed
+- [x] Change evaluation metrics to accuracy and f1score (**Inês**)
 
-- [ ] Clean metadata from .txt file using STOP words (**Susana**)
+- [x] Write the rationale behind our preprocessing, the methods we will use and our testing scheme (**Susana**)
+
+- [x] Organize the code (**Susana**)
+
+- [x] Continuous Bag of Words (**Lara**)
+
+- [x] LSTM after CBOW if needed (**Susana**)
+
+- [x] Clean metadata from .txt file using STOP words (**Susana**)
  
 - [x] Prepare dataframe: 
       . Arrange column names, id, author label and so on 
@@ -38,7 +46,7 @@
 - [x] Baseline: statistics - frequency count analysis as a baseline (**Lara**)
       - Bag of words it takes into consideration frequency but not the order of the words. It's naive but not too simplistic but it should be easy to implement
  
-- [ ] Decide on evaluation metrics
+- [x] Decide on evaluation metrics
  
 - [x] Evaluate Baseline 
  
@@ -53,6 +61,7 @@ Test _Baseline,_ _CBOW_ and eventually _LMNN_ in this order:
 - no meta, clean with punctuation and no lemmatization
 - no meta, clean without punctuation and no lemmatization
 - no meta, clean without punctuation and with lemmatization 
+- no meta, clean without punctuation and with lemmatization as chunks
  
 
 ### Models:
